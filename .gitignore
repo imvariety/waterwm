@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
-
+watwm
+*.geany
+config.h
+waterwm
 # Object files
 *.o
 *.ko
