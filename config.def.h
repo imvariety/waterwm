@@ -1,0 +1,9 @@
+#define ALTERNATIVE_KEY Mod1Mask	// Mod1Mask = Alt Key
+#define PRIMARY_KEY     Mod4Mask 	// Mod4Mask = Windows Key 
+char *overlapping_key = "U";	 	// PRIMARY_KEY + overlapping_key (in this config, Windows+U) makes the window go at the top layer ("raise" it)
+char *killing_key = "K"; 	 	// PRIMARY_KEY + killing_key (in this config, Windows+K) launches killcmd in a shell
+char *launching_key = "R";          	// PRIMARY_KEY + launching_key (in this config, Windows+R) launches launchercmd in a shell
+char *killcmd = "xkill";	        // Well, nothing much to explain; xkill closes an app
+char *launchercmd = "rofi -show drun &";  // rofi is modern and all, but you could also use things like dmenu_run
+char *keymapcmd = "setxkbmap it &"; 	// variety is italian, if you are english you can use en (i think >:D)
+bool showintro = true; 			// the nointro argument will still override showintro!
